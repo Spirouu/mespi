@@ -1,0 +1,129 @@
+body {
+    background: linear-gradient(#93B5C6, #FFE3E3);
+    font-family: "comic sans ms", Arial, Helvetica, sans-serif;
+}
+
+#bloc_page {
+    width: 55%;
+    height: 60em;
+    min-width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    margin-bottom: 5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    padding: 1.5em;
+}
+
+#top_menu{
+    position: fixed; 
+    width: 100%;   
+    top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #93B5C6;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+#menu {
+    list-style-type:none;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+#menu ul {
+    list-style-type: none;
+    display: flex;
+}
+#menu li a{
+    color: rgb(252, 236, 236);
+    font-size: large;
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+#menu li{
+    display: inline-flex;
+    color: rgb(252, 236, 236);
+}
+
+#menu li a:hover{
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+
+#contenu{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+.footer-basic {
+    padding:40px 0;
+    color:#4b4c4d;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+  
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+  
+.footer-basic li {
+    padding:0 10px;
+}
+  
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.footer-basic ul a:hover {
+    opacity:1;
+}
+  
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+}
+  
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.footer-basic .social > a:hover {
+    opacity:0.9;
+}
+  
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
