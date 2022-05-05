@@ -62,9 +62,10 @@ body {
 
 h1{
     text-align: center;
-    color: #fff;
+    color: rgb(75, 77, 218);
     text-decoration: underline;
     font-style: italic;
+    padding-top: 1em;
 }
 
 
@@ -82,6 +83,16 @@ h1{
     align-items: center;
 }
 
+h2{
+    text-align: center;
+    color: rgb(103, 57, 212);
+}
+
+p{
+    text-align: center;
+    color: rgb(78, 68, 173);
+    padding-bottom: 2.5em;
+}
 .conteneur{
     width: 30em;
 }
@@ -135,3 +146,4 @@ h1{
     color:#aaa;
     margin-bottom:0;
 }
+
